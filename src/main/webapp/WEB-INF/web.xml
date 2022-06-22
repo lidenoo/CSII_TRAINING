@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<!-- MclassServletNasi -->
+	<servlet>
+		<servlet-name>MclassServletNasi</servlet-name>
+		<servlet-class>jp.csii.zoo.controller.MclassServletNasi</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MclassServletNasi</servlet-name>
+		<url-pattern>/mclasslistnasi</url-pattern>
+	</servlet-mapping>
+	
+		<!-- MclassServletAri -->
+	<servlet>
+		<servlet-name>MclassServletAri</servlet-name>
+		<servlet-class>jp.csii.zoo.controller.MclassServletAri</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MclassServletAri</servlet-name>
+		<url-pattern>/mclasslistari</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
