@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<!-- MclassServletNasi -->
+	<servlet>
+		<servlet-name>MclassServletNasi</servlet-name>
+		<servlet-class>jp.csii.zoo.controller.MclassServletNasi</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MclassServletNasi</servlet-name>
+		<url-pattern>/mclasslistnasi</url-pattern>
+	</servlet-mapping>
+	
+	<!-- MclassServletNasiDel -->
+	<servlet>
+		<servlet-name>MclassServletNasiDel</servlet-name>
+		<servlet-class>jp.csii.zoo.controller.MclassServletNasiDel</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MclassServletNasiDel</servlet-name>
+		<url-pattern>/mclassservletnasidel</url-pattern>
+	</servlet-mapping>
+	
+	<!-- MclassServletNasiUpd -->
+	<servlet>
+		<servlet-name>MclassServletNasiUpd</servlet-name>
+		<servlet-class>jp.csii.zoo.controller.MclassServletNasiUpd</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MclassServletNasiUpd</servlet-name>
+		<url-pattern>/mclassservletnasiupd</url-pattern>
+	</servlet-mapping>
+	
+	<!-- MclassServletNasiIns -->
+	<servlet>
+		<servlet-name>MclassServletNasiIns</servlet-name>
+		<servlet-class>jp.csii.zoo.controller.MclassServletNasiIns</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MclassServletNasiIns</servlet-name>
+		<url-pattern>/mclassservletnasiins</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+	
+		<!-- MclassServletAri -->
+	<servlet>
+		<servlet-name>MclassServletAri</servlet-name>
+		<servlet-class>jp.csii.zoo.controller.MclassServletAri</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MclassServletAri</servlet-name>
+		<url-pattern>/mclasslistari</url-pattern>
+	</servlet-mapping>
+	
+
+
+
+</web-app>
