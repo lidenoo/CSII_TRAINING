@@ -37,7 +37,7 @@
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>MclassServletNasiIns</servlet-name>
-		<url-pattern>/mclassservletnasiins</url-pattern>
+		<url-pattern>/mclasssins</url-pattern>
 	</servlet-mapping>
 	
 	

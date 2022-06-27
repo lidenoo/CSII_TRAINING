@@ -42,8 +42,8 @@
 		
 		if (al!=null){ 
 		
-		
-		for (MclassDto dto: al) {
+			
+			for (MclassDto dto: al) {
 		
 		%>
 		
@@ -55,7 +55,7 @@
 			<td><a href="/zoo/mclassservletnasiupd?updid=<%=dto.getId() %>">更新</a></td>
 		</tr>
 		<% 
-		}
+			}
 		}
 		%>
 

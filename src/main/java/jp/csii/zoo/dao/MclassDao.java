@@ -29,6 +29,17 @@ public class MclassDao {
 	// ステートメント保持用
 	private Statement smt = null;
 
+
+	public String SELECT = "SELECT";
+	public String ALL = "*";
+	public String FROM = "FROM";
+	public String equal = "=";
+	public String Apo = "'";
+	public String bktLeft = "(";
+	public String bktRight = ")";
+	
+	public String sqlSample = SELECT+ALL+FROM+"m_class";
+
 	/**
 	 * フィールド変数の情報を基に、DB接続をおこなう関数
 	 *
@@ -224,6 +235,24 @@ public class MclassDao {
 
 
 
+	}
+	public String sqlStrMaker(int i ,String x){
+		String SELECT = "SELECT";
+		String ALL = "*";
+		String FROM = "FROM";
+		String equal = "=";
+		String Apo = "'";
+		String bktLeft = "(";
+		String bktRight = ")";
+
+
+		if(i == 1){
+
+		}
+		if(i == 2){
+
+		}
+		return "sql String";
 	}
 
 }

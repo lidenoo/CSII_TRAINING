@@ -18,7 +18,7 @@
 
 <form action="/zoo/mclassservletnasiins" method="post">
 	<table border="2">
-	
+        <td>新規資料を入力してください</td>
 		<tr>
 			<td>grade_id</td>
 			<td><input type="text" name="gradeid" value=""></td>

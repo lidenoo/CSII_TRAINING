@@ -25,7 +25,7 @@ public class MclassServletNasiIns extends HttpServlet {
 
 		req.getRequestDispatcher("/mclassupd.jsp").forward(req, resp);
 	}
-
+	
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		try {
